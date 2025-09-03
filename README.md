@@ -1,8 +1,6 @@
-# 📝 Blog Web Application
+# 📝 Blog Web Application Plan
 
 > 🚧 This project is built **only for learning purposes** where I implemented multiple functionalities to explore frontend development concepts.
-
-📅 **Project Started:** 1st June 2025
 
 ### A full-featured **Blog Web Application** built with modern web technologies. This project demonstrates user-based content management, authentication with role-based access, and secure API handling using tokens. The application allows users to create, manage, and interact with blogs in a personalized and secure environment.
 ---
