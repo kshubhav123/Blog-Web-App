@@ -11,7 +11,7 @@ const UserProfile = () => {
     ];
 
     const handleUpdate = () => {
-        alert('Update button clicked! Implement your logic here.');
+        alert('Update Profile Coming soon....');
     };
 
     return (

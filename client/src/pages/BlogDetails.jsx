@@ -36,7 +36,15 @@ const mockBlogs = [
 
 const BlogDetails = () => {
     const { id } = useParams();
-    const blog = mockBlogs.find((b) => b.id === id);
+    console.log(id,"idddd");
+
+    console.log(typeof id);
+
+
+    
+    const blog = mockBlogs.find((b) => b.id === Number(id));
+    console.log(blog,"mmm");
+    
 
     const [comments, setComments] = useState([
         { id: 1, name: 'John Doe', content: 'Great post!' },

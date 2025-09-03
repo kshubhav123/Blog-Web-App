@@ -11,6 +11,7 @@ import BlogList from './pages/BlogList';
 import BlogDetails from './pages/BlogDetails';
 import About from './pages/About';
 import Categories from './pages/Categories';
+import CatBlogList from './pages/CatBlogList';
 
 const Navbar = lazy(() => import('./components/Navbar'))
 const Home = lazy(() => import('./pages/Home'))
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/blog-list" element={<BlogList />} />
           <Route path="/blogs/:id" element={<BlogDetails />} />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/category/:slug" element={<CatBlogList />} />
           <Route path="*" element={<BlogList />} />
         </Routes>
       </Suspense>
