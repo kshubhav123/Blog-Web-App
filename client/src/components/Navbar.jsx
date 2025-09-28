@@ -60,7 +60,7 @@ const Navbar = () => {
           <Link
             to="/login"
             onClick={handleLinkClick}
-            className="px-4 py-1 bg-primary text-white rounded hover:bg-green-600"
+            className="px-4 py-1 bg-primary text-white rounded hover:bg-gradient-to-r from-[#FF4B2B] to-[#FF416C]"
           >
             Login
           </Link>

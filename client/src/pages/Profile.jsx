@@ -17,7 +17,7 @@ const UserProfile = () => {
     return (
         <div className="min-h-[calc(100vh-64px)] flex items-center justify-center  bg-gray-50 px-4">
             <div className="max-w-md w-full bg-white p-8 rounded-xl md:shadow-lg">
-                <h2 className="text-3xl font-bold mb-8 text-center text-green-700">User Profile</h2>
+                <h2 className="text-3xl font-bold mb-8 text-center text-[#FF416C]">User Profile</h2>
 
                 <div className="space-y-6">
                     {user.map(({ label, value }) => (
@@ -30,7 +30,7 @@ const UserProfile = () => {
 
                 <button
                     onClick={handleUpdate}
-                    className="mt-10 w-full py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition"
+                    className="mt-10 w-full py-3 bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] hover:bg-[#FF416C] text-white rounded-lg font-semibold transition"
                 >
                     Update Profile
                 </button>

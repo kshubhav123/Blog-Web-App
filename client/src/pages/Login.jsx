@@ -80,21 +80,21 @@ const Login = () => {
 
                     <div className="text-right">
 
-                        <Link to="/forgot-password" className="text-sm text-green-600 hover:underline">
+                        <Link to="/forgot-password" className="text-sm bg-gradient-to-r from-[#FF416C] to-[#FF4B2B] bg-clip-text text-transparent hover:underline">
                             Forgot Password?
                         </Link>
                     </div>
 
                     <button
                         type="submit"
-                        className="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition"
+                        className="w-full bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] text-white py-2 rounded-md hover:bg-[#FF416C] transition"
                     >
                         Login
                     </button>
 
                     <p className="text-center mt-4 text-sm">
                         Don't have an account?{' '}
-                        <Link to="/register" className="text-green-600 hover:underline">
+                        <Link to="/register" className="bg-gradient-to-r from-[#FF416C] to-[#FF4B2B] bg-clip-text text-transparent hover:underline">
                             Create one
                         </Link>
                     </p>

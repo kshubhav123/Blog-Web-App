@@ -4,7 +4,7 @@ import { Pen, BookOpenText, Users } from 'lucide-react';
 const Home = () => {
   return (
     <div className="text-gray-800">
-      <section className="bg-gradient-to-br from-green-100 to-white py-20 px-6 text-center">
+      <section className="bg-gradient-to-br to-[#ffebe8] from-white py-20 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Welcome to BlogWeb
@@ -14,7 +14,7 @@ const Home = () => {
           </p>
           <Link
             to="/add-blog"
-            className="inline-block px-6 py-3 bg-primary text-white rounded-full text-lg hover:bg-green-600 transition"
+            className="inline-block px-6 py-3 bg-primary text-white rounded-full text-lg hover:bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] transition"
           >
             Start Writing
           </Link>
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-primary text-white py-16 px-6 text-center">
+      <section className="bg-gradient-to-r from-[#FF416C] to-[#FF4B2B] text-white py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Join the BlogWeb Community Today</h2>
         <p className="text-lg mb-6">Start reading, writing, and saving your favorite blogs right now.</p>
         <Link

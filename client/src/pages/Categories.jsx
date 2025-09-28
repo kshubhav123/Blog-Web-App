@@ -19,7 +19,7 @@ const Categories = () => {
                     <Link
                         key={id}
                         to={`/category/${name.toLowerCase()}`}
-                        className="block p-6 border border-gray-200 rounded-lg shadow hover:shadow-lg transition bg-white"
+                        className="block p-6 border border-gray-200 rounded-lg drop-shadow-lg hover:shadow-lg transition bg-white"
                     >
                         <h2 className="text-xl font-semibold mb-2 text-primary">{name}</h2>
                         <p className="text-gray-600">{description}</p>

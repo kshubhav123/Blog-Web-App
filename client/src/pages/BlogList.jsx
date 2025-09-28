@@ -65,7 +65,7 @@ const BlogList = () => {
             {view === 'card' && (
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {displayedBlogs.map(blog => (
-                        <div key={blog.id} className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition">
+                        <div key={blog.id} className="bg-white p-4 rounded-xl drop-shadow-xl hover:shadow-lg transition">
                             <Link to={`/blogs/${blog.id}`}>
                                 <h3 className="text-lg font-semibold text-primary hover:underline mb-2 line-clamp-2">{blog.title}</h3>
                             </Link>

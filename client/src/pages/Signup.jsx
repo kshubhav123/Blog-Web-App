@@ -118,14 +118,14 @@ const Register = () => {
 
                     <button
                         type="submit"
-                        className="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition"
+                        className="w-full bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] text-white py-2 rounded-md hover:bg-[#FF416C] transition"
                     >
                         Sign Up
                     </button>
 
                     <p className="text-sm text-center mt-4">
                         Already have an account?{' '}
-                        <Link to="/login" className="text-green-600 hover:underline">Sign In</Link>
+                        <Link to="/login" className="bg-gradient-to-r from-[#FF416C] to-[#FF4B2B] bg-clip-text text-transparent hover:underline">Sign In</Link>
                     </p>
                 </form>
             </div>

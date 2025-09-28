@@ -93,7 +93,7 @@ const BlogDetails = () => {
                 className="absolute top-4 right-4 z-10 bg-white p-2 rounded-full shadow hover:shadow-lg transition"
             >
                 {saved ? (
-                    <BookmarkCheck className="text-green-600" size={24} />
+                    <BookmarkCheck className="bg-gradient-to-r from-[#FF416C] to-[#FF4B2B] bg-clip-text text-transparent" size={24} />
                 ) : (
                     <Bookmark className="text-gray-500" size={24} />
                 )}
@@ -139,7 +139,7 @@ const BlogDetails = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-primary text-white px-4 py-2 rounded hover:bg-green-600"
+                        className="bg-primary text-white px-4 py-2 rounded hover:bg-gradient-to-r from-[#FF4B2B] to-[#FF416C]"
                     >
                         Post Comment
                     </button>

@@ -19,7 +19,7 @@ const AddBlog = () => {
 
     return (
         <div className="max-w-xl mx-auto p-6 mt-10 bg-white rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-6 text-center text-green-700">Add Blog</h2>
+            <h2 className="text-2xl font-bold mb-6 text-center text-[#FF416C]">Add Blog</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <input
                     type="text"
@@ -50,7 +50,7 @@ const AddBlog = () => {
                 />
                 <button
                     type="submit"
-                    className="w-full bg-green-600 text-white py-3 rounded-md hover:bg-green-700 transition"
+                    className="w-full bg-gradient-to-r from-[#FF4B2B] to-[#FF416C] text-white py-3 rounded-md hover:bg-[#FF416C] transition"
                 >
                     Submit
                 </button>
